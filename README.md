@@ -1,2 +1,2 @@
 # ultrasound-labs.github.io
-The Ultrasound Website
+Ultrasound Labs Website
