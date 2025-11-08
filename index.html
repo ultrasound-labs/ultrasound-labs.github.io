@@ -1,109 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Ultrasound Labs</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
-                    </ul>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Ultrasound Labs — web3 studio focused on open, permissionless infrastructure. Research, system design, software, and infrastructure." />
+  <title>Ultrasound Labs</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">
+          <!-- Stylized bat + wave icon -->
+          <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" class="icon-bat">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1">
+                <stop offset="0%" stop-color="#6EE7B7"/>
+                <stop offset="100%" stop-color="#60A5FA"/>
+              </linearGradient>
+            </defs>
+            <path fill="url(#g)" d="M10 30 C20 5, 40 5, 50 30 C60 5, 80 5, 90 30 C80 20, 70 15, 60 20 C50 25, 40 22, 30 20 C20 18, 15 26, 10 30Z"/>
+            <circle cx="105" cy="20" r="10" fill="rgba(255,255,255,0.04)"/>
+          </svg>
+        </div>
+        <div>
+          <h1 class="site-title">Ultrasound Labs</h1>
+          <p class="tag">Web3 studio — open, permissionless technology</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h2>We build open technology for the web3 era</h2>
+          <p class="lead">We are Ultrasound Labs — a web3 studio with a strong conviction that open and permissionless technology will unlock a wave of innovation and economic value similar to the invention of the internet. Key to unlock that value is a paradigm shift away from trust‑based, centralized systems to cryptographically secured, decentralized systems.</p>
+          <p><a class="btn" href="#contact">Get in touch</a></p>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <!-- Animated ultrasound wave graphic -->
+          <svg viewBox="0 0 400 200" class="waves" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="waveGrad" x1="0" x2="1">
+                <stop offset="0%" stop-color="#6EE7B7"/>
+                <stop offset="100%" stop-color="#60A5FA"/>
+              </linearGradient>
+            </defs>
+            <g class="wave-layer" opacity="0.9"><path d="M0 100 Q50 60 100 100 T200 100 T300 100 T400 100" stroke="url(#waveGrad)" stroke-width="6" fill="none" stroke-linecap="round"/></g>
+            <g class="wave-layer" opacity="0.6"><path d="M0 120 Q50 80 100 120 T200 120 T300 120 T400 120" stroke="url(#waveGrad)" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Remove vision section and continue with services -->
+    <section id="services" class="section">
+      <div class="container">
+        <h3>Services</h3>
+        <p class="muted">We support you in reshaping the future - from the ground up.</p>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-emoji">👩‍🔬</div>
+            <h4>Research</h4>
+            <p>Research, experimentation and rapid POC implementations to validate novel decentralized designs.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-emoji">🧮</div>
+            <h4>System Design</h4>
+            <p>Architectural design, game‑theoretic analysis, and economic models to align incentives and assess security.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-emoji">👩‍💻</div>
+            <h4>Software Development</h4>
+            <p>Frontend, backend, smart contracts, SDKs and integrations — production‑grade software.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-emoji">🏗️</div>
+            <h4>Hosting & Operation</h4>
+            <p>Deployment, monitoring, and operations for scalable and resilient systems.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- New expertise section -->
+    <section id="expertise" class="section section-contrast">
+      <div class="container">
+        <h3>Expertise</h3>
+        <p class="muted">We master the latest and most widely used tools.</p>
+
+        <div class="tech-stack">
+          <div class="tech-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg" alt="JavaScript" />
+            <span>JavaScript</span>
+          </div>
+          <div class="tech-logo">
+            <img src="https://www.python.org/static/community_logos/python-logo-generic.svg" alt="Python" />
+            <span>Python</span>
+          </div>
+          <div class="tech-logo">
+            <img src="https://www.rust-lang.org/logos/rust-logo-512x512.png" alt="Rust" />
+            <span>Rust</span>
+          </div>
+          <div class="tech-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg" alt="Solidity" />
+            <span>Solidity</span>
+          </div>
+          <div class="tech-logo">
+            <img src="https://starkware.co/wp-content/uploads/2021/05/logoicon.svg" alt="Cairo" />
+            <span>Cairo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Payments / accepted badges (horizontal, official icons inline SVG) -->
+    <section id="payments" class="section section-badges" aria-label="Payment methods accepted">
+      <div class="container">
+        <h3>Payments accepted</h3>
+        <p class="muted">We accept cryptocurrency payments for our services.</p>
+
+        <div class="payment-badges" role="list" aria-hidden="false">
+            <div class="coin-sign btc" role="listitem" aria-label="Bitcoin accepted">
+                <div class="coin-icon" aria-hidden="true">
+                    <!-- Bitcoin Logo -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png"
+                        alt="Bitcoin" width="64" height="64" />
                 </div>
+                <div class="coin-text"><strong>Bitcoin</strong><span class="sub">accepted here</span></div>
             </div>
-        </nav> 
-        -->
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                    <div class="text-center">
-                        <h1 class="mx-auto my-0"><br \>Ultrasound Labs</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">A web3 studio.</h2>
-                        <a class="btn btn-primary" href="https://github.com/ultrasound-labs">Find us on GitHub</a>
-                        <br /><br /><br />
-                        <a class="mx-3" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="mx-3" href="#!"><i class="fab fa-linkedin"></i></a>
-                        <a class="mx-3" href="https://github.com/ultrasound-labs"><i class="fab fa-github"></i></a>
-                    </div>
+            <div class="coin-sign eth" role="listitem" aria-label="Ethereum accepted">
+                <div class="coin-icon" aria-hidden="true">
+                    <!-- Ethereum Logo -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/1200px-Ethereum-icon-purple.svg.png"
+                        alt="Ethereum" width="64" height="64" />
                 </div>
-                <!--
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div>
-                -->
+                <div class="coin-text"><strong>Ethereum</strong><span class="sub">accepted here</span></div>
             </div>
-        </header>
-        <!-- Contact-->
-        <!--<section class="contact-section bg-black">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="coin-sign usdt" role="listitem" aria-label="Stablecoins accepted">
+                <div class="coin-icon" aria-hidden="true">
+                    <!-- Tether (USDT) Logo -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/USDT_Logo.png"
+                        alt="Tether" width="64" height="64" />
                 </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div>
+                <div class="coin-text"><strong>Stablecoins</strong><span class="sub">accepted here</span></div>
             </div>
-        </section>-->
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Ultrasound Labs 2022</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="section section-contrast">
+      <div class="container">
+        <h3>Get in touch</h3>
+        <p>If you'd like to collaborate or learn more, email <a href="mailto:gm@ultrasound.dev">gm@ultrasound.dev</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2025</span> Ultrasound Labs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
 </html>
